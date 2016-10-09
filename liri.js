@@ -104,5 +104,7 @@ if (process.argv[2] == 'do-what-it-says') {
 	fs.readFile('random.txt', 'utf8', function(error, data) {
 		var arr = data.split(',');
         console.log(arr);
+
+        // ran out of time to finish this. could probably do it if the spotify function took parameters?
 	});
 }
